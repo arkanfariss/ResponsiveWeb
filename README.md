@@ -1,17 +1,19 @@
 # ResponsiveWeb
 p5.TugasKelompok
 
-Nama Kelompok		: Kidulan
+Nama Kelompok : Kidulan
 
-Anggota Kelompok	: Aziz Kuncoro (185410008)
+Anggota Kelompok : 
 
-					  Heru Dwi Pangestu (185410038)
-					  
-					  Muhammad Arkan Farista (185410047)
-					  
-Kelas				: TI-1
++ Aziz Kuncoro (185410008)
 
-Mata Kuliah			: Pemrograman Web Mobile
++ Heru Dwi Pangestu (185410038)
+
++ Muhammad Arkan Farista (185410047)
+
+Kelas : TI-1
+
+Mata Kuliah : Pemrograman Web Mobile
 
 FULLSCREEN
 
