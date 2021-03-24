@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.hr {
+display: block;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+margin-left: auto;
+margin-right: auto;
+border-style: inset;
+border-width: 1px;
+}
+
+.c0, .c1, .c2, .c3, .c4 {
+  width: 100%;
+  text-align: center;
+}
+.c0{    background: rgb(194, 5, 252);}
+.c1{    background: rgb(41, 3, 253);}
+.c2{    background: rgb(253, 12, 4);}
+.c3{    background: rgb(244, 248, 2);}
+.c4{    background: rgb(35, 250, 2);}
+@media (min-width: 600px) {
+  .c0 {
+    width: 100%;
+    -webkit-order: 1;
+    order: 1;
+  }
+  .c1 {
+    width: 25%;
+    -webkit-order: 1;
+    order: 1;
+  }
+
+  .c2 {
+    width: 25%;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .c3 {
+    width: 25%;
+    -webkit-order: 3;
+    order: 3;
+  }
+
+  .c4 {
+    width: 25%;
+    -webkit-order: 4;
+    order: 4;
+  }
+}
+
+@media (min-width: 800px) {
+  .c2 {
+    width: 25%;
+  }
+
+  .c3 {
+    width: 25%;
+  }
+
+  .c4 {
+    width: 25%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="c0" >  <h1>Data Covid-19</h1> </div> 
+    <div class="c1" >  
+        <h3>Provinsi</h3><br>
+        <hr>DKI <br>
+        <hr> Banten<br>
+        <hr> Jawa Barat<br>
+        <hr> Jawa Tengah<br>
+        <hr> DIY <br>
+        <hr> Jawa Timur
+    </div>
+    <div class="c2">  
+        <h3>Positif</h3> <br>
+        <hr>373761 <br>
+        <hr> 35596<br>
+        <hr> 243749<br>
+        <hr> 166268<br>
+        <hr> 32054 <br>
+        <hr> 137486
+    </div>
+    <div class="c3">  
+        <h3>Meninggal</h3> <br>
+        <hr>6237 <br>
+        <hr> 728<br>
+        <hr> 3013<br>
+        <hr> 7186<br>
+        <hr> 768 <br>
+        <hr> 9744
+    </div>
+    <div class="c4">  
+        <h3>Sembuh</h3> <br>
+        <hr>362190 <br>
+        <hr> 28930<br>
+        <hr> 214276<br>
+        <hr> 122781<br>
+        <hr> 26153 <br>
+        <hr> 125695
+    </div>
+</div>
+</body>
+</html>
