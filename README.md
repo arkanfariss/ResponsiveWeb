@@ -2,10 +2,15 @@
 p5.TugasKelompok
 
 Nama Kelompok		: Kidulan
+
 Anggota Kelompok	: Aziz Kuncoro (185410008)
+
 					  Heru Dwi Pangestu (185410038)
+					  
 					  Muhammad Arkan Farista (185410047)
+					  
 Kelas				: TI-1
+
 Mata Kuliah			: Pemrograman Web Mobile
 
 FULLSCREEN
